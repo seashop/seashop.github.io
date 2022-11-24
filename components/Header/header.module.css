@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  color: blue;
+}
+.menus {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuItem {
+  flex: 1;
+  font-size: 18px;
+  text-align: center;
+  border-right: 1px solid #A0A2A5;
+  color: #A0A2A5;
+  cursor: pointer;
+}
+.menuItem:last-child {
+  border: 0
+}
+.menuItemActive {
+  color: blue;
+}
+.btnGroup {
+  display: flex;
+  width: 210px;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  width: 90px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid blue;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: blue;
+  cursor: pointer;
+}
+.btnPrimary {
+  background-color: blue;
+  color: white;
+}
